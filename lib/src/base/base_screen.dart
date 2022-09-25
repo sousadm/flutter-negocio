@@ -20,7 +20,7 @@ class _BaseScreenState extends State<BaseScreen> {
         controller: pageController,
         physics: const NeverScrollableScrollPhysics(),
         children: [
-          const HomeTab(),
+          HomeTab(),
           Container(color: Colors.blue),
           Container(color: Colors.green),
           Container(color: Colors.purple),

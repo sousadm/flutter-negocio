@@ -15,7 +15,7 @@ class NegocioApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.green,
-        scaffoldBackgroundColor: Colors.white.withAlpha(190),
+        scaffoldBackgroundColor: Colors.white.withAlpha(20),
       ),
       home: const Login(),
     );
